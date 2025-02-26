@@ -32,20 +32,20 @@ const teamMembers = [
       telegram: 'https://t.me/phanton18'
     }
   },
-  {
-    id: 3,
-    name: 'Ryder',
-    title: 'Head of Moderating & Raid Team',
-    img: require('../images/photo_2025-01-13_06-41-23.jpg'),
-    skills: [
-      { id: 1, name: 'Community Management', icon: <FaUserShield /> },
-      { id: 2, name: 'Conflict Resolution', icon: <FaCogs /> }
-    ],
-    social: {
-      twitter: 'https://x.com/Cryptoloverr01?t=7Ri0JiFjlZMI86BAP5-MRg&s=09',
-      telegram: 'http://t.me/itsRyder99'
-    }
-  },
+  // {
+  //   id: 3,
+  //   name: 'Ryder',
+  //   title: 'Head of Moderating & Raid Team',
+  //   img: require('../images/photo_2025-01-13_06-41-23.jpg'),
+  //   skills: [
+  //     { id: 1, name: 'Community Management', icon: <FaUserShield /> },
+  //     { id: 2, name: 'Conflict Resolution', icon: <FaCogs /> }
+  //   ],
+  //   social: {
+  //     twitter: 'https://x.com/Cryptoloverr01?t=7Ri0JiFjlZMI86BAP5-MRg&s=09',
+  //     telegram: 'http://t.me/itsRyder99'
+  //   }
+  // },
 
   {
     id: 4,
@@ -63,20 +63,20 @@ const teamMembers = [
   },
   
 
-  {
-    id: 4,
-    name: 'Dickson Edor',
-    title: 'Head of Smart Contract Team',
-    img: require('../images/dickson.jpg'),
-    skills: [
-      { id: 1, name: 'Smart Contracts', icon: <FaCode /> },
-      { id: 2, name: 'Blockchain Technology', icon: <FaEthereum /> }
-    ],
-    social: {
-      twitter: 'https://x.com/DicksonFilm?t=Y50_uYNO7ICO2vM9ptnXBg&s=09',
-      telegram: 'https://t.me/offscott2'
-    }
-  },
+  // {
+  //   id: 4,
+  //   name: 'Dickson Edor',
+  //   title: 'Head of Smart Contract Team',
+  //   img: require('../images/dickson.jpg'),
+  //   skills: [
+  //     { id: 1, name: 'Smart Contracts', icon: <FaCode /> },
+  //     { id: 2, name: 'Blockchain Technology', icon: <FaEthereum /> }
+  //   ],
+  //   social: {
+  //     twitter: 'https://x.com/DicksonFilm?t=Y50_uYNO7ICO2vM9ptnXBg&s=09',
+  //     telegram: 'https://t.me/offscott2'
+  //   }
+  // },
   {
     id: 6,
     name: 'Dominic',
