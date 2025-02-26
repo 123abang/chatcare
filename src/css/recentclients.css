@@ -1,0 +1,107 @@
+.recent-clients-section {
+    background-color: #f0f0f0;
+    padding: 50px 20px;
+    text-align: center;
+    overflow: hidden; /* Prevents overflow issues */
+    position: relative; /* Ensure the line is positioned correctly */
+}
+
+.section-title {
+    font-family: 'NORD-Black', sans-serif;
+    font-size: 2rem;
+    color: #020233;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.section-title::after {
+    content: "";
+    display: block;
+    width: 80px;
+    height: 4px;
+    background-color: #007bff; /* Blue color */
+    margin: 20px auto 0; /* Centered below the title */
+    border-radius: 2px;
+    position: relative;
+    transition: width 0.3s ease-in-out;
+}
+
+.section-title:hover::after {
+    width: 100px; /* Expands on hover */
+}
+
+.marquee-container {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.marquee {
+    display: flex;
+    white-space: nowrap; /* Prevent wrapping */
+    animation: marquee 15s linear infinite; /* Default duration */
+}
+
+.client-box {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 0 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s ease-in-out;
+    min-width: 200px; /* Set a fixed width to control the box size */
+}
+
+.client-box:hover {
+    transform: scale(1.05);
+}
+
+.client-image {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.client-name {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    color: #333;
+}
+
+@keyframes marquee {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-50%); /* Move by 50% to loop */
+    }
+}
+
+/* Responsive adjustments for mobile devices */
+@media (max-width: 768px) {
+    .marquee {
+        animation: marquee 20s linear infinite; /* Adjust the duration for better scrolling */
+    }
+}
+
+@media (max-width: 768px) {
+    .marquee-container {
+        display: flex;
+        overflow-x: auto;
+    }
+
+    .marquee {
+        flex: none;
+        white-space: nowrap;
+    }
+
+    .client-box {
+        flex: 0 0 auto; /* Prevent flex items from shrinking */
+    }
+}

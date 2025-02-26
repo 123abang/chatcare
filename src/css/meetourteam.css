@@ -1,0 +1,93 @@
+.meet-our-team-section {
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  
+  .section-title {
+    font-family: 'NORD-Black', sans-serif;
+    font-size: 2rem;
+    color: #020233;
+    margin-bottom: 40px;
+  }
+  
+  .team-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .team-member-box {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 250px; /* Adjust width as needed */
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .team-member-box:hover {
+    transform: scale(1.05);
+  }
+  
+  .team-member-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+  }
+  
+  .team-member-name {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 5px;
+  }
+  
+  .team-member-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 15px;
+  }
+  
+  .skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .skill {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.9rem;
+    color: #333;
+  }
+  
+  .skill-icon {
+    color: #007bff; /* Blue color for icons */
+  }
+  
+  .social-links {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  .social-icon {
+    font-size: 1.5rem;
+    color: #007bff; /* Blue color */
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .social-icon:hover {
+    color: #0056b3; /* Darker blue on hover */
+  }
+  

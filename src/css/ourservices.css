@@ -1,0 +1,51 @@
+.our-services-section {
+    padding: 2rem;
+    background-color: #f9f9f9;
+  }
+  
+  .section-title {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  .services-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+  }
+  
+  .service-box {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1rem;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .service-box:hover {
+    transform: translateY(-10px);
+  }
+  
+  .icon-container {
+    font-size: 3rem;
+    color: #007bff; /* Blue color for icons */
+    margin-bottom: 0.5rem;
+  }
+  
+  .service-title {
+    font-size: 1.25rem;
+    margin: 0.5rem 0;
+    color: #333;
+  }
+  
+  .service-description {
+    font-size: 1rem;
+    color: #666;
+  }
+  

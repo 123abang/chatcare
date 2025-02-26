@@ -1,0 +1,131 @@
+/* Flexbox layout for hero-content */
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 20px;
+}
+
+.hero-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+    gap: 20px;
+}
+
+@font-face {
+    font-family: 'NORD-Black';
+    src: url('../myFonts/NORD-Black.otf') format('opentype');
+  }
+
+.hero-text {
+    flex: 1;
+}
+
+.hero-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.hero-title {
+    font-size: 3rem;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 20px;
+    color: #020233;
+}
+
+.hero-subtitle {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.hero-button {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.hero-button:hover {
+    background-color: #0056b3;
+}
+
+/* Styling the image */
+.img1 {
+    max-width: 150%;
+    height: auto;
+    object-fit: contain;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .hero-content {
+        flex-direction: column;
+        text-align: center;
+        position: relative;
+       
+    }
+
+    .img1 {
+        max-width: 150%;
+        height: auto;
+        object-fit: contain;
+    }
+
+    .hero-title {
+        font-size: 2.5rem;
+    }
+
+    .hero-subtitle {
+        font-size: 1.2rem;
+    }
+
+    .hero-image {
+        margin-top: 20px;
+    }
+
+    .img1 {
+        max-width: 80%;
+    }
+}
+
+@media screen and (min-width: 992px){
+    .hero-text{
+        position: relative;
+        left: -80px;
+    }
+}
+
+@media (max-width: 991px){
+    .img1{
+        width: 500px !important;
+    }
+}
+
+
+.typing {
+    display: inline;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 4px solid rgba(0, 0, 0, 0.75); /* Cursor */
+    animation: typing 4s steps(40, end), blink-caret 0.75s step-end infinite;
+  }
+  
+  @keyframes typing {
+    from { width: 0; }
+    to { width: 100%; }
+  }
+  
+  @keyframes blink-caret {
+    from, to { border-color: transparent; }
+    50% { border-color: rgba(0, 0, 0, 0.75); }
+  }
+  

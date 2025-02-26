@@ -1,0 +1,89 @@
+.testimonies-section {
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  
+  .section-title {
+    font-family: 'NORD-Black', sans-serif;
+    font-size: 2rem;
+    color: #020233;
+    margin-bottom: 40px;
+  }
+  
+  .testimonies-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .testimony-box {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px; /* Adjust width as needed */
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .testimony-box:hover {
+    transform: scale(1.05);
+  }
+  
+  .client-info {
+    margin-bottom: 15px;
+  }
+  
+  .client-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  
+  .client-name {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .rating-container {
+    margin-bottom: 15px;
+  }
+  
+  .star-icon {
+    color: #ffd700; /* Gold color */
+    font-size: 1.5rem;
+  }
+  
+  .star-icon.empty {
+    color: #e0e0e0; /* Light gray for empty stars */
+  }
+  
+  .client-description {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 15px;
+  }
+  
+  .social-links {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  .social-icon {
+    font-size: 1.5rem;
+    color: #007bff; /* Blue color */
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .social-icon:hover {
+    color: #0056b3; /* Darker blue on hover */
+  }
+  

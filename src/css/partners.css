@@ -1,0 +1,56 @@
+.our-partners {
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  
+  .our-partners .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .our-partners h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    color: #333;
+    font-family: 'NORD-Black', sans-serif;
+    position: relative;
+    display: inline-block;
+  }
+  
+  .our-partners h2::after {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 4px;
+    background-color: #007bff;
+    margin: 10px auto 0;
+    transition: width 0.3s ease;
+  }
+  
+  .our-partners h2:hover::after {
+    width: 100px;
+  }
+  
+  .partners-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .partner-image {
+    max-width: 150px;
+    height: auto;
+    border-radius: 8px; /* Slightly smaller border-radius for sharper corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Increased shadow for more depth */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    object-fit: contain; /* Ensure the image fits well without distortion */
+  }
+  
+  .partner-image:hover {
+    transform: scale(1.1); /* Increased scale for a more noticeable hover effect */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25); /* Deeper shadow for better emphasis */
+  }
+  

@@ -1,0 +1,90 @@
+.discuss-section {
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  
+  .section-title {
+    font-family: 'NORD-Black', sans-serif;
+    font-size: 2.5rem;
+    color: #020233;
+    margin-bottom: 20px;
+    position: relative;
+    display: inline-block;
+  }
+  
+  .section-title::after {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 4px;
+    background-color: #007bff;
+    margin: 10px auto 0;
+    transition: width 0.3s ease;
+  }
+  
+  .section-title:hover::after {
+    width: 100px;
+  }
+  
+  .section-text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 30px;
+  }
+  
+  .book-call-btn {
+    background-color: #007bff;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .book-call-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .book-call-btn:focus {
+    outline: none;
+  }
+  
+  .stats {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .stat-item {
+    flex: 1;
+    max-width: 200px;
+    text-align: center;
+  }
+  
+  .stat-item svg {
+    color: #007bff; /* Icon color */
+    margin-bottom: 10px;
+  }
+  
+  .stat-number {
+    display: block;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #020233;
+    margin-bottom: 5px;
+  }
+  
+  .stat-item p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    color: #555;
+  }
+  
